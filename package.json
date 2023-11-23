@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "gen-ai-ui",
   "private": true,
   "scripts": {
     "build": "turbo build",
