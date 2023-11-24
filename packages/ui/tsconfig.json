@@ -3,6 +3,11 @@
 	"compilerOptions": {
 		"outDir": "dist"
 	},
-	"include": ["src"],
+	"include": [
+		"src", 
+    	"../types/*.d.ts",
+    	"../types/next-auth.d.ts",
+    	"**/*.ts",
+    	"**/*.tsx"],
 	"exclude": ["node_modules", "dist"]
 }
