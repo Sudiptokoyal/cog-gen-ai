@@ -2,10 +2,11 @@
 	"name": "@cgai/ui",
 	"version": "0.0.0",
 	"private": true,
+	"main": "./index.tsx",
 	"exports": {
-		"./card": "./src/card.tsx",
-		"./code": "./src/code.tsx"
+		".": "./index.tsx"
 	},
+	"types": "./index.tsx",
 	"scripts": {
 		"lint": "eslint . --max-warnings 0",
 		"generate:component": "turbo gen react-component"
