@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-// import { Button } from "@cgai/ui";
+import { Button } from "@cgai/ui";
 
 function Gradient({
 	conic,
@@ -53,7 +53,7 @@ export default function Page(): JSX.Element {
 		<div>
 			<h1>CFRA</h1>
 			<button className="bg-green-500 p-3 rounded">Click here</button>
-			{/* <Button variant="destructive">Shared UI button</Button> */}
+			<Button variant="destructive" className="px-5">Shared UI button</Button>
 		</div>
 	);
 }
