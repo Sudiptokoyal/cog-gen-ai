@@ -51,7 +51,7 @@ const LINKS = [
 export default function Page(): JSX.Element {
 	return (
 		<div>
-			<h1>Web</h1>
+			<h1>CFRA</h1>
 			<button className="bg-green-500 p-3 rounded">Click here</button>
 			{/* <Button variant="destructive">Shared UI button</Button> */}
 		</div>
