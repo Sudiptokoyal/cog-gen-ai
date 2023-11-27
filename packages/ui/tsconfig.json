@@ -1,13 +1,5 @@
 {
 	"extends": "@cgai/typescript-config/react-library.json",
-	"compilerOptions": {
-		"outDir": "dist"
-	},
-	"include": [
-		"src", 
-    	"../types/*.d.ts",
-    	"../types/next-auth.d.ts",
-    	"**/*.ts",
-    	"**/*.tsx"],
-	"exclude": ["node_modules", "dist"]
+	"include": ["."],
+	"exclude": ["dist", "build", "node_modules"]
 }

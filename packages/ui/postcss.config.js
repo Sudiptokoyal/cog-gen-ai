@@ -1,0 +1,1 @@
+module.exports = require("@cgai/config/postcss-preset");
