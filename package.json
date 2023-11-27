@@ -5,7 +5,9 @@
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"lint": "turbo lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"dev:cfra": "turbo dev --filter=@cgai/ui --filter=cfra",
+		"dev:acquiralio-agent": "turbo dev --filter=@cgai/ui --filter=acquiralio-agent"
 	},
 	"devDependencies": {
 		"@cgai/eslint-config": "*",
